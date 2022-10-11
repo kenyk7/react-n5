@@ -1,0 +1,72 @@
+@keyframes fadeModal {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1199;
+  padding: 16px;
+  // display: flex; // open
+  align-items: center;
+  justify-content: center;
+  display: none;
+  overflow-x: hidden;
+
+  &Open {
+    display: flex;
+  }
+
+  &__close {
+    text-align: right;
+    font-size: 40px;
+    line-height: 0.5;
+    margin-left: auto;
+    margin-bottom: 16px;
+    cursor: pointer;
+  }
+
+  &__content {
+    text-align: left;
+    background: #fff;
+    padding: 24px;
+    border-radius: 16px;
+    max-width: 600px;
+    min-width: 280px;
+    margin: auto;
+    animation: 0.3s fadeModal ease-in;
+    position: relative;
+  }
+
+  &__body {
+    margin-top: 24px;
+  }
+
+  &__title {
+    padding: 0 16px;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 600;
+  }
+}
+
+.backdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(#000, 0.7);
+}
