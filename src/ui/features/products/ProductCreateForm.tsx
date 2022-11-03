@@ -7,7 +7,7 @@ import {
   useState,
 } from 'react';
 import { Product } from '~/domain/products/Product';
-import Button from '~/ui/components/button';
+import { Button } from '~/ui/components/button';
 
 import css from './Products.module.scss';
 

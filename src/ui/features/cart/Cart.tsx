@@ -8,7 +8,7 @@ import {
   isCartOpenAtom,
 } from '~/state/cartState';
 import { getUpdateProductsAmounts, productsState } from '~/state/productsState';
-import Button from '~/ui/components/button';
+import { Button } from '~/ui/components/button';
 
 import css from './Cart.module.scss';
 

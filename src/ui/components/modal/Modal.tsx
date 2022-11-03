@@ -20,7 +20,7 @@ const defaultProps: ModalPropsO = {
 
 type ModalProps = ModalPropsR & ModalPropsO;
 
-function Modal({
+export function Modal({
   title,
   children,
   open,

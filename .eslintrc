@@ -37,7 +37,8 @@
     ],
     "import/extensions": [
       "error",
-      "never"
+      "never",
+      {"svg": "always"}
     ],
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",

@@ -4,8 +4,8 @@ import { useRef, useState } from 'react';
 import { Product } from '~/domain/products/Product';
 import { getUpdateCart, cartState } from '~/state/cartState';
 import { productsState } from '~/state/productsState';
-import Button from '~/ui/components/button';
-import Modal from '~/ui/components/modal';
+import { Button } from '~/ui/components/button';
+import { Modal } from '~/ui/components/modal';
 import { ProductCard } from './ProductCard';
 import {
   FormProduct,

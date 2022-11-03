@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useAtom, useSetAtom } from 'jotai';
 
-import Button from '~/ui/components/button';
+import { Button } from '~/ui/components/button';
 import { isCartOpenAtom, cartStateMetadata } from '~/state/cartState';
 
 import css from './Header.module.scss';

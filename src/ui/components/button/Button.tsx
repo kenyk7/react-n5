@@ -33,7 +33,7 @@ const defaultProps: ButtonPropsO = {
 
 type ButtonProps = ButtonPropsR & ButtonPropsO;
 
-function Button({
+export function Button({
   children,
   href,
   target,
