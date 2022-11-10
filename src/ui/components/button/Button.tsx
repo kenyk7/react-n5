@@ -67,5 +67,3 @@ export function Button({
 }
 
 Button.defaultProps = defaultProps;
-
-export default Button;

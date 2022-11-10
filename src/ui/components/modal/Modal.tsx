@@ -56,5 +56,3 @@ export function Modal({
 }
 
 Modal.defaultProps = defaultProps;
-
-export default Modal;
